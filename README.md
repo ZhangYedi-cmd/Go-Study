@@ -8,9 +8,9 @@ Go语言从入门到入土。
 
 🔥 [Gin web框架](https://github.com/gin-gonic/gin)
 
-💎 [Go 语言并发编程](main/02-Gorountine/README.md)
+💎 [Go 语言并发编程](main/02-Gorountine/)
 
-☁ [Go 语言基础](main/01-goBasic/README.md)
+☁ [Go 语言基础](main/01-goBasic/)
 
 
 ## 学习交流
