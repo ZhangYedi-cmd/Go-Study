@@ -15,4 +15,4 @@ Go语言从入门到入土。
 
 ## 学习交流
 
-<img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/886/a5e7bc02c750d107a7f9d7b11afe4f0.jpg" alt="a5e7bc02c750d107a7f9d7b11afe4f0" style="zoom: 25%;" />
+![image-20220526000152784](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20220526000152784.png)

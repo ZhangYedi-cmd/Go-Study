@@ -66,6 +66,18 @@ func initTest(c *gin.Context) {
 ## 2,路由嵌套
 
 在上面的代码实例中，我们在main.go中配置了engine，这就相当于是服务器对象，然后调用router.go中的initRouter函数，传入engine,
-为配置路由
+为配置路由.
+在实际的开发中，我们经常需要对路由进行嵌套处理
 
+```go
 
+func InitRouter(r *gin.Engine) {
+	r.GET("/", initTest)
+
+	userGroup := r.Group("/user")
+	{
+		userGroup.GET("/login", user.LoginFunc)
+		userGroup.GET("/register", user.Register)
+	}
+}
+```

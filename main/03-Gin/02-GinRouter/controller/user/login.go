@@ -2,11 +2,7 @@ package user
 
 import "github.com/gin-gonic/gin"
 
-type loginResponse struct {
-	string
-}
-
-func login(c *gin.Context) {
+func LoginFunc(c *gin.Context) {
 	name := c.Query("name")
 	pwd := c.Query("pwd")
 
@@ -15,6 +11,7 @@ func login(c *gin.Context) {
 			"name": name,
 			"pwd":  pwd,
 		})
+		return
 	}
 
 	c.JSON(400, gin.H{
