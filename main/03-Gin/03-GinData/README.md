@@ -21,7 +21,7 @@ type Login struct {
 	Pwd      string `form:"pwd" json:"pwd" binding:"required"`
 }
 
-func UserLogin(c *gin.Context) {
+func CheckJson(c *gin.Context) {
 	// 对json数据进行校验
 	var json Login
     
@@ -98,6 +98,5 @@ func CheckFormData(c *gin.Context) {
 		"code": 200,
 		"msg":  "login success",
 	})
-
 }
 ```

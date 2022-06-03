@@ -8,7 +8,7 @@ import (
 func InitRouter(e *gin.Engine) {
 	userGroup := e.Group("/user")
 	{
-		userGroup.POST("/login", service.UserLogin)
+		userGroup.POST("/login", service.CheckJson)
 		userGroup.GET("/urlData/:username/:pwd", service.CheckUrlData)
 		userGroup.GET("/formData", service.CheckFormData)
 	}
